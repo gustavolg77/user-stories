@@ -1,0 +1,26 @@
+pasos:
+- django solo es una marco de trabajo, osea que en produccion no viene incorporado un servidor pero si en etapa de desarrollo
+- instalar python 3.11.2
+- verificar la version de pip
+- crear un entorno virtual
+- elegir un interprete en python por default
+- activar el entorno virtual
+- instalar django 4.1.7 (pip install django)
+- verificamos la instalacion (django-admin --version)
+- crear un proyecto (django-admin startproject "nombre-proyecto" .)
+- ejecutar el proyecto base (python manage.py runserver)
+	manage.py es el punto de origen
+
+
+urls: es un gestor de rutas para plantillas(vistas), un lugar donde se centraliza todas las rutas
+
+- crear una aplicacion(python manage.py startapp "nombre de la app")
+
+- instalar psycopg (pip install psycopg2)
+
+- configurar settings y asociar las aplicaciones con el proyecto
+
+- reajustar las urls
+
+- utilizar los views
+
