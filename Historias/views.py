@@ -5,5 +5,3 @@ from django.http import HttpResponse
 def about(request):
     title = ':)'
     return render(request,'about.html',{ 'title' : title})
-
-
