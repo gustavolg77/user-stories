@@ -9,3 +9,6 @@ def about(request):
 def verificarUsuario(request):
     usuarios = Usuario.objects.all()
     return render(request,'login.html',{'usuarios':usuarios}) #usuarios [{},{},{}]
+
+def layout(request):
+    return render(request,'layout.html')
